@@ -1,0 +1,11 @@
+location-event-microservice handles user coordinates sent by mobiles devices.
+gRPC is used  to establish communication because lot of users are expected to be sending data concurrently.
+
+Kafka cluster handles receiving this location data that will be consumed by location-processor-microservice
+so it can be persisted to Postgres Database.
+
+
+person service is a RESTFul API service responsible for keeping user information.
+location service interacts using a RESTFul API with the Frontend.
+
+person microservice send data to the location microservice when a request to find out possible connection is made.
