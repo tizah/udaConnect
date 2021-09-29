@@ -17,7 +17,7 @@ C:\Users\David\Documents\Udacity Nana Degree\cloud native nano degree\cloud proj
 ************************** output ******************************
 C:\Users\David\Documents\Udacity Nana Degree\cloud native nano degree\cloud projects\UdaConnect>helm install kafka-release bitnami/kafka
 NAME: kafka-release
-LAST DEPLOYED: Tue Sep 21 16:45:51 2021
+LAST DEPLOYED: Wed Sep 22 09:45:48 2021
 NAMESPACE: default
 STATUS: deployed
 REVISION: 1
@@ -60,11 +60,8 @@ kafka-release-zookeeper-0         0/1     ContainerCreating   0          99s
 kafka-release-0                   0/1     ContainerCreating   0          99s
 
 
-13 min later
-
-kafka-release-zookeeper-0         1/1     Running             0          13m
-kafka-release-0                   0/1     ContainerCreating   0          13m
-
+kafka-release-zookeeper-0                  1/1     Running            0          22m
+kafka-release-0                            1/1     Running            0          22m
 
 Note: wait for pods to be in Running STATUS
 ****************************************************************   
