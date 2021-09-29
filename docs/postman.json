@@ -34,12 +34,12 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:30002/api/persons/5/connection?start_date=2020-01-01&end_date=2020-12-30&distance=5",
+			"name": "http://localhost:30002/api/persons/5/connection?start_date=2021-09-22&end_date=2021-09-24&distance=5",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:30002/api/persons/5/connection?start_date=2020-01-01&end_date=2020-12-30&distance=5",
+					"raw": "http://localhost:30002/api/persons/5/connection?start_date=2021-09-22&end_date=2021-09-24&distance=5",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -54,11 +54,11 @@
 					"query": [
 						{
 							"key": "start_date",
-							"value": "2020-01-01"
+							"value": "2021-09-22"
 						},
 						{
 							"key": "end_date",
-							"value": "2020-12-30"
+							"value": "2021-09-24"
 						},
 						{
 							"key": "distance",

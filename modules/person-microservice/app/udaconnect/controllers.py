@@ -32,7 +32,7 @@ class PersonsResource(Resource):
 
 
 @api.route("/persons/<person_id>")
-@api.param("person_id", "Unique ID for a given Person", _in="query")
+@api.param("person_id", "Unique identifier for a Person", _in="query")
 class PersonResource(Resource):
     @responds(schema=PersonSchema)
     def get(self, person_id) -> Person:
